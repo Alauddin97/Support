@@ -1,0 +1,43 @@
+.sub{
+    display: grid;
+    width: 20vw;
+    padding: 5px;
+    background-color:#643572;
+    border-left: 2px solid white;
+    height: 100%;
+}
+
+.sum{
+    display: grid;
+    width: 20vw;
+    padding: 5px;
+    background-color:#643572;
+    border-left: 2px solid white;
+}
+
+.nav{
+    display: grid;
+    width: 15vw;
+    padding: 5px;
+    background-color:#643572;
+}
+
+#link{
+    text-decoration: none;
+    padding: 10px;
+    color:whitesmoke;
+}
+
+#link:hover{
+    background-color: #945cb4;
+}
+
+.body{
+    margin-left: 20px;
+}
+
+.details{
+    margin-left: 5vw;
+    width: 90%;
+}
+
