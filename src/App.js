@@ -38,7 +38,8 @@ import Zulo from './topic/sub/Miscellaneous/Zulo';
 
 function App() {
   return (
-    <div className='path'>
+    <div >
+      <div className='path'>
       <Router>
         <div>
         <Route path="/" component={Topic} />
@@ -78,6 +79,9 @@ function App() {
         <Route path='/zulo' component={Zulo}/>     
         </div>        
       </Router>
+      </div>
+      <div className='img'>
+      </div>
     </div>
   );
 }
